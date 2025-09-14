@@ -33,7 +33,7 @@
 					{m.contactByEmail()}
 				</CardTitle>
 				<CardDescription class="text-base">
-					<a href="mailto:info@aspavocats.ca" class="text-primary hover:underline">
+					<a href="mailto:${m.firmContactEmail()}" class="text-primary hover:underline">
 						{m.firmContactEmail()}
 					</a>
 				</CardDescription>

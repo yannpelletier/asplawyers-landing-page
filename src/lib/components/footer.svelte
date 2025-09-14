@@ -79,7 +79,9 @@
 			</div>
 			<div>
 				<span class="font-bold">{m.footerContactEmail()} :</span>
-				<span>{m.firmContactEmail()}</span>
+				<a href="mailto:${m.firmContactEmail()}" class="text-primary hover:underline">
+					{m.firmContactEmail()}
+				</a>
 			</div>
 		</div>
 		<div>
