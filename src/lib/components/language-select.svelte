@@ -28,7 +28,8 @@
 	<DropdownMenuContent>
 		{#each availableLanguageTags as lang}
 			<a
-				href={i18n.resolveRoute(i18n.route(page.url.pathname), lang)}
+				href={i18n.route(page.url.pathname)}
+				hreflang={lang}
 				aria-current={lang === currentLanguageTag ? 'page' : undefined}
 			>
 				<DropdownMenuItem class={`uppercase ${lang === currentLanguageTag ? 'bg-accent' : ''}`}>
