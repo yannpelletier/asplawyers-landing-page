@@ -103,7 +103,7 @@
 </script>
 
 <svelte:head>
-	<title>{m.firmName()}: {m.firmDescription()}</title>
+	<title>{m.firmName()} | {m.firmDescription()}</title>
 </svelte:head>
 
 <!-- Hero Section -->

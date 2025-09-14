@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{m.privacyPolicyTitle()}</title>
+	<title>{m.privacyPolicyTitle()} | {m.firmName()}</title>
 	<meta
 		name="description"
 		content="Politique de confidentialité de ASP Avocats inc., décrivant la collecte, l'utilisation et la protection des renseignements personnels."
