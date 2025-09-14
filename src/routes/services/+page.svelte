@@ -102,16 +102,16 @@
 	</div>
 </section>
 
-<section class="container mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:py-24" id="content">
+<section class="container mx-auto px-4 sm:px-6 lg:px-8" id="content">
 	<div class="grid gap-8 lg:grid-cols-2">
-		{#each services as service, i}
+		{#each services as service}
 			<Card
 				id={service.id}
 				class="group relative overflow-hidden border border-border/50 bg-card shadow-lg backdrop-blur-sm transition-all duration-500 hover:border-primary/30 hover:shadow-xl"
 			>
 				<div
 					class="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/20 to-secondary/10 opacity-10 transition-all duration-500 group-hover:opacity-70"
-				/>
+				></div>
 				<CardHeader class="flex flex-col pb-4">
 					<div class="flex items-center space-x-3">
 						<div
@@ -123,7 +123,7 @@
 							/>
 						</div>
 						<CardTitle
-							class="text-xl font-semibold text-foreground group-hover:text-primary sm:text-2xl"
+							class="text-xl font-semibold text-foreground transition-all group-hover:text-primary sm:text-2xl"
 						>
 							{service.title}
 						</CardTitle>

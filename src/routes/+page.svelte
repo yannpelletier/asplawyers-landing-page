@@ -126,6 +126,7 @@
 				{m.heroFirmSpecialization()}
 			</p>
 			<Button
+				href={i18n.resolveRoute('/contact')}
 				variant="default"
 				size="lg"
 				class="btn-shine mt-6 w-full cursor-pointer p-6 text-base sm:text-lg md:text-xl"
@@ -192,10 +193,11 @@
 					>
 						{service.description}
 					</p>
+
 					<Button
 						href={service.path}
 						variant="outline"
-						class="btn-shine w-full max-w-xs cursor-pointer border-primary text-sm text-primary transition-colors hover:bg-indigo-50 sm:text-base md:text-lg"
+						class="group/button relative w-full overflow-hidden border-primary/50 bg-transparent px-6 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
 					>
 						{m.ctaLearnMore()}
 					</Button>

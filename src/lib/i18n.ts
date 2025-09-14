@@ -2,7 +2,6 @@ import { createI18n } from '@inlang/paraglide-sveltekit';
 import * as runtime from '$lib/paraglide/runtime.js';
 
 export const i18n = createI18n(runtime, {
-	// prefixDefaultLanguage: 'always',
 	defaultLanguageTag: 'fr',
 	pathnames: {
 		'/about': {
@@ -12,6 +11,10 @@ export const i18n = createI18n(runtime, {
 		'/careers': {
 			en: '/careers',
 			fr: '/carrieres'
+		},
+		'/privacy-policy': {
+			en: '/privacy-policy',
+			fr: '/politique-de-confidentialite'
 		}
 	}
 });
