@@ -27,7 +27,6 @@
 	</DropdownMenuTrigger>
 	<DropdownMenuContent>
 		{#each availableLanguageTags as lang}
-			{i18n.resolveRoute(i18n.route(page.url.pathname), lang)}
 			<a
 				href={i18n.resolveRoute(i18n.route(page.url.pathname), lang)}
 				hreflang={lang}
