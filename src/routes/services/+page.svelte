@@ -62,7 +62,6 @@
 				m.serviceAnnualResolutions(),
 				m.serviceDividendResolutions()
 			],
-			price: '$500.00',
 			buttonLabel: m.ctaBookConsultation()
 		}
 	];
@@ -80,12 +79,12 @@
 		class="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background/100"
 	></div>
 	<div
-		class="relative z-10 container mx-auto flex flex-col items-center justify-center space-y-8 py-32 sm:py-48 lg:min-h-[70vh] lg:py-64"
+		class="relative z-10 container mx-auto flex flex-col items-center justify-center space-y-6 py-64 lg:min-h-[800px]"
 	>
 		<h1 class="text-center text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
 			{m.servicesTitle()}
 		</h1>
-		<p class="max-w-2xl text-center text-muted-foreground sm:text-lg lg:text-xl">
+		<p class="max-w-3xl text-center text-muted-foreground sm:text-lg lg:text-xl">
 			{m.servicesDescription()}
 		</p>
 		<Button

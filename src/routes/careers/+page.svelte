@@ -20,13 +20,20 @@
 	<div
 		class="relative z-10 container mx-auto flex min-h-screen flex-col items-center justify-center space-y-6 lg:min-h-[800px]"
 	>
-		<h1
-			class="text-center text-xl font-bold text-foreground sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
-		>
+		<h1 class="text-center text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
 			{m.careersTitle()}
 		</h1>
-		<p class="max-w-5xl text-center text-base text-xl text-foreground/80 lg:text-2xl">
+		<p class="text-center text-muted-foreground sm:text-lg lg:text-xl">
 			{m.careersDescription()}
+		</p>
+		<p class="sm:text-md max-w-xl text-center text-muted-foreground lg:text-lg">
+			{m.careersSubDescription()}
+			<a
+				href="mailto:{m.careersEmail()}"
+				class="text-sm text-blue-600 hover:underline sm:text-base md:text-lg"
+			>
+				{m.careersEmail()}
+			</a>
 		</p>
 		<Card class="w-full max-w-2xl p-4 text-center">
 			{#each jobOpenings as opening}{:else}

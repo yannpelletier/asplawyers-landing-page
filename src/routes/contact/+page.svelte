@@ -23,10 +23,10 @@
 		<h1 class="text-center text-5xl font-bold text-foreground md:text-3xl lg:text-4xl">
 			{m.contactTitle()}
 		</h1>
-		<p class="max-w-2xl text-center text-base text-xl text-foreground/80 lg:text-2xl">
+		<p class="max-w-3xl text-center text-muted-foreground sm:text-lg lg:text-xl">
 			{m.contactDescription()}
 		</p>
-		<div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
+		<div class="grid w-full max-w-3xl grid-cols-1 gap-4 lg:grid-cols-2">
 			<Card class="flex flex-col items-center space-y-2 p-6 text-center">
 				<Mail class="h-8 w-8 text-primary" />
 				<CardTitle class="text-lg font-semibold">

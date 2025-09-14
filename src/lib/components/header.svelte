@@ -182,7 +182,7 @@
 >
 	<nav class="container mx-auto flex items-center space-x-4 lg:space-x-8">
 		<div>
-			<Logo class="text-2xl md:text-3xl lg:text-4xl" />
+			<Logo class="text-xl md:text-3xl lg:text-4xl" />
 		</div>
 
 		<!-- Desktop Menu -->
@@ -207,6 +207,10 @@
 		</div>
 
 		<div class="hidden lg:block">
+			<ModeToggle />
+		</div>
+
+		<div class="lg:hidden">
 			<ModeToggle />
 		</div>
 
