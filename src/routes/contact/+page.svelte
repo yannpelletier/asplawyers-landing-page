@@ -4,8 +4,6 @@
 	import { Card, CardTitle, CardDescription } from '$lib/components/ui/card';
 	import Phone from '@lucide/svelte/icons/phone';
 	import Mail from '@lucide/svelte/icons/clock';
-	import MapPin from '@lucide/svelte/icons/map-pin';
-	import Clock from '@lucide/svelte/icons/clock';
 </script>
 
 <svelte:head>
@@ -28,7 +26,7 @@
 		<p class="max-w-2xl text-center text-base text-xl text-foreground/80 lg:text-2xl">
 			{m.contactDescription()}
 		</p>
-		<div class="grid w-full max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+		<div class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
 			<Card class="flex flex-col items-center space-y-2 p-6 text-center">
 				<Mail class="h-8 w-8 text-primary" />
 				<CardTitle class="text-lg font-semibold">
@@ -47,29 +45,6 @@
 				</CardTitle>
 				<CardDescription class="text-base">
 					{m.firmContactPhone()}
-				</CardDescription>
-			</Card>
-			<Card class="flex flex-col items-center space-y-2 p-6 text-center">
-				<MapPin class="h-8 w-8 text-primary" />
-				<CardTitle class="text-lg font-semibold">
-					{m.contactOurOffice()}
-				</CardTitle>
-				<CardDescription class="text-base">
-					{m.firmAddress()}
-				</CardDescription>
-			</Card>
-			<Card class="flex flex-col items-center space-y-2 p-6 text-center">
-				<Clock class="h-8 w-8 text-primary" />
-				<CardTitle class="text-lg font-semibold">
-					{m.contactOfficeHours()}
-				</CardTitle>
-				<CardDescription class="text-base">
-					<div>
-						{m.firmOfficeDays()}
-					</div>
-					<div>
-						{m.firmOfficeHours()}
-					</div>
 				</CardDescription>
 			</Card>
 		</div>

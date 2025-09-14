@@ -27,7 +27,7 @@
 
 		<!-- Action -->
 		<div class="pt-4">
-			<Button href="/" class="w-full sm:w-auto">Go Home</Button>
+			<Button href="/" class="w-full sm:w-auto">{m.goHome()}</Button>
 		</div>
 	</div>
 </div>

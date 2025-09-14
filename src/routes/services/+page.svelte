@@ -20,7 +20,6 @@
 				m.serviceManagementCompanySetup(),
 				m.serviceFamilyTrustAssetProtection()
 			],
-			price: '$500.00',
 			buttonLabel: m.ctaBookConsultation()
 		},
 		{
@@ -35,7 +34,6 @@
 				m.serviceFinancingAndIntegration(),
 				m.servicePlanificationOfIntergenerationalTransfer()
 			],
-			price: '$500.00',
 			buttonLabel: m.ctaBookConsultation()
 		},
 		{
@@ -51,7 +49,6 @@
 				m.serviceAdaptedFiscalPlanning(),
 				m.serviceSuccessorPlanning()
 			],
-			price: '$500.00',
 			buttonLabel: m.ctaBookConsultation()
 		},
 		{
@@ -146,22 +143,14 @@
 					</div>
 				</CardContent>
 				<CardFooter class="pt-4">
-					<div class="w-full space-y-3">
-						<div class="text-center">
-							<p class="text-2xl font-medium text-primary">{m.serviceMinimumPrice()}</p>
-						</div>
-						<div class="text-center">
-							<p class="text-2xl font-bold text-primary">{service.price} + {m.serviceTaxes()}</p>
-						</div>
-						<Button
-							href={i18n.resolveRoute('/contact')}
-							variant="outline"
-							size="lg"
-							class="group/button relative w-full overflow-hidden border-primary/50 bg-transparent px-6 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-						>
-							<span class="relative">{service.buttonLabel}</span>
-						</Button>
-					</div>
+					<Button
+						href={i18n.resolveRoute('/contact')}
+						variant="outline"
+						size="lg"
+						class="group/button relative w-full overflow-hidden border-primary/50 bg-transparent px-6 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+					>
+						<span class="relative">{service.buttonLabel}</span>
+					</Button>
 				</CardFooter>
 			</Card>
 		{/each}

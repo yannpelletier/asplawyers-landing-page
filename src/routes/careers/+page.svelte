@@ -25,6 +25,9 @@
 		>
 			{m.careersTitle()}
 		</h1>
+		<p class="max-w-5xl text-center text-base text-xl text-foreground/80 lg:text-2xl">
+			{m.careersDescription()}
+		</p>
 		<Card class="w-full max-w-2xl p-4 text-center">
 			{#each jobOpenings as opening}{:else}
 				<div class="text-sm sm:text-base md:text-lg lg:text-xl">

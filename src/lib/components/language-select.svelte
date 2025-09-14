@@ -2,12 +2,7 @@
 	import GlobeIcon from '@lucide/svelte/icons/globe';
 	import { page } from '$app/state';
 	import { i18n } from '$lib/i18n';
-	import {
-		availableLanguageTags,
-		languageTag,
-		onSetLanguageTag,
-		setLanguageTag
-	} from '$lib/paraglide/runtime';
+	import { languageTag, onSetLanguageTag, availableLanguageTags } from '$lib/paraglide/runtime';
 	import {
 		DropdownMenu,
 		DropdownMenuItem,

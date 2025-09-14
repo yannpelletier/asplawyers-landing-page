@@ -74,10 +74,6 @@
 				<Logo class="text-4xl" />
 			</div>
 			<div>
-				<span class="font-bold">{m.footerContactAddress()} :</span>
-				<span>{m.firmAddress()}</span>
-			</div>
-			<div>
 				<span class="font-bold">{m.footerContactPhone()} :</span>
 				<span>{m.firmContactPhone()}</span>
 			</div>

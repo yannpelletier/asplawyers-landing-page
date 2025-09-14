@@ -87,10 +87,6 @@
 				<p class="mt-2 text-sm sm:text-base md:text-lg">{m.withdrawalConsentText()}</p>
 				<div class="mt-4 space-y-2">
 					<p class="flex items-center gap-2 text-sm sm:text-base md:text-lg">
-						<MapPin class="h-5 w-5 text-gray-600" />
-						{m.contactAddress()}
-					</p>
-					<p class="flex items-center gap-2 text-sm sm:text-base md:text-lg">
 						<Mail class="h-5 w-5 text-gray-600" />
 						<a
 							href="mailto:{m.contactEmail()}"
