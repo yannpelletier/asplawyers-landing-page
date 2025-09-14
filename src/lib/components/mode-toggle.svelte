@@ -7,9 +7,9 @@
 
 <Button variant="ghost" size="icon" onclick={toggleMode} class="cursor-pointer rounded-full">
 	<SunIcon
-		class="size-[1.6rem] scale-100 rotate-0 !transition-all lg:size-[1.2rem] dark:scale-0 dark:-rotate-90"
+		class="size-[1.2rem] scale-100 rotate-0 !transition-all lg:size-[1.6rem] dark:scale-0 dark:-rotate-90"
 	/>
 	<MoonIcon
-		class="absolute size-[1.6rem] scale-0 rotate-90 !transition-all lg:size-[1.2rem] dark:scale-100 dark:rotate-0"
+		class="absolute size-[1.2rem] scale-0 rotate-90 !transition-all lg:size-[1.6rem] dark:scale-100 dark:rotate-0"
 	/>
 </Button>

@@ -19,8 +19,8 @@
 </script>
 
 <DropdownMenu>
-	<DropdownMenuTrigger class="text-md flex cursor-pointer space-x-1 p-1 uppercase">
-		<GlobeIcon />
+	<DropdownMenuTrigger class="flex cursor-pointer space-x-1 p-1 text-sm uppercase lg:text-lg">
+		<GlobeIcon class="size-4 lg:size-6" />
 		<div>
 			{currentLanguageTag}
 		</div>
@@ -30,6 +30,7 @@
 			{i18n.resolveRoute(i18n.route(page.url.pathname), lang)}
 			<a
 				href={i18n.resolveRoute(i18n.route(page.url.pathname), lang)}
+				hreflang={lang}
 				aria-current={lang === currentLanguageTag ? 'page' : undefined}
 			>
 				<DropdownMenuItem class={`uppercase ${lang === currentLanguageTag ? 'bg-accent' : ''}`}>

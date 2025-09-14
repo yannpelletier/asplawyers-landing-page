@@ -202,15 +202,11 @@
 			{@render contactButton()}
 		</div>
 
-		<div class="hidden lg:block">
+		<div>
 			<LanguageSelect />
 		</div>
 
 		<div class="hidden lg:block">
-			<ModeToggle />
-		</div>
-
-		<div class="lg:hidden">
 			<ModeToggle />
 		</div>
 
