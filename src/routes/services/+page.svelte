@@ -130,7 +130,9 @@
 						{service.description}
 					</p>
 					<div class="mb-4">
-						<h3 class="mb-2 text-lg font-medium text-foreground">Ce service inclut:</h3>
+						<h3 class="mb-2 text-lg font-medium text-foreground">
+							{m.serviceThisServiceIncludes()}
+						</h3>
 						<ul class="space-y-2 text-sm text-muted-foreground sm:text-base">
 							{#each service.items as item}
 								<li class="flex items-center space-x-2">

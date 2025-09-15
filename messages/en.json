@@ -15,6 +15,7 @@
 	"navCareers": "Careers",
 	"serviceTaxes": "Taxes",
 	"serviceMinimumPrice": "Starting from",
+	"serviceThisServiceIncludes": "This service includes:",
 	"serviceFiscalReorganization": "Tax reorganizations and optimizations",
 	"serviceCorporativeReorganisation": "Corporate reorganizations (mergers, rollovers, estate freezes)",
 	"serviceDeductionMultiplication": "Multiplication of the capital gains deduction (CGD/ECG)",
@@ -114,7 +115,7 @@
 	"consentTitle": "Consent",
 	"consentText": "Where possible, we will obtain consent for the collection, use, and disclosure of personal information about an individual directly from that individual. If you provide the Firm with personal information about another individual, you represent that, prior to submitting such information, you have obtained the necessary consent or authorization to allow us to collect, use, and disclose that personal information for the purposes set out in this Policy, or as permitted by applicable laws.",
 	"withdrawalConsentTitle": "Withdrawal of Consent",
-	"withdrawalConsentText": "You may modify or withdraw your consent to the use and disclosure of your personal information, or refuse certain uses and disclosures, subject to legal and contractual restrictions. To modify or withdraw your consent, please contact our personal information protection officer, Antony Kerr-Aspirot, using the email provided below:",
+	"withdrawalConsentText": "You may modify or withdraw your consent to the use and disclosure of your personal information, or refuse certain uses and disclosures, subject to legal and contractual restrictions. To modify or withdraw your consent, please contact our personal information protection officer, Antony K. Aspirot, using the email provided below:",
 	"contactEmail": "info@aspavocats.ca",
 	"collectedInformationTitle": "Information We Collect About You",
 	"collectedInformationText": "We collect and use several types of information about you, including:",
@@ -154,9 +155,9 @@
 	"retentionTitle": "Retention of Information",
 	"retentionText": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, unless otherwise permitted or required by applicable law or regulation.",
 	"accessCorrectionTitle": "Access and Correction of Your Personal Information",
-	"accessCorrectionText": "You have the right to request access to the personal information we hold about you and the right to correct that information. To exercise these rights or for any other questions regarding your personal information, please contact our personal information protection officer, Antony Kerr-Aspirot, using the contact details provided above.",
+	"accessCorrectionText": "You have the right to request access to the personal information we hold about you and the right to correct that information. To exercise these rights or for any other questions regarding your personal information, please contact our personal information protection officer, Antony K. Aspirot, using the contact details provided above.",
 	"policyModificationTitle": "Modification of Our Privacy Policy",
 	"policyModificationText": "This privacy policy may be modified by the Firm from time to time without prior notice. The most recent version of the privacy policy will always be available on our website.",
 	"complianceComplaintTitle": "Complaints Regarding Compliance with This Policy",
-	"complianceComplaintText": "For any complaints or questions regarding our compliance with this privacy policy, please contact our personal information protection officer, Antony Kerr-Aspirot, using the contact details provided above."
+	"complianceComplaintText": "For any complaints or questions regarding our compliance with this privacy policy, please contact our personal information protection officer, Antony K. Aspirot, using the contact details provided above."
 }

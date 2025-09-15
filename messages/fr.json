@@ -15,6 +15,7 @@
 	"navCareers": "Carrières",
 	"serviceTaxes": "Taxes",
 	"serviceMinimumPrice": "À partir de",
+	"serviceThisServiceIncludes": "Ce service inclut:",
 	"serviceFiscalReorganization": "Réorganisations et optimisations fiscales",
 	"serviceCorporativeReorganisation": "Réorganisations corporatives (fusion, roulement, gel successoral)",
 	"serviceDeductionMultiplication": "Multiplication de la déduction pour gain en capital (DGC/ECG)",
@@ -112,9 +113,9 @@
 	"limitationTitle": "Limitation",
 	"limitationText": "La Société vise à limiter la quantité de renseignements personnels qu’elle recueille à ce qui est nécessaire et approprié aux fins identifiées. Nous n’utiliserons ni ne divulguerons vos renseignements personnels à des fins autres que celles pour lesquelles ils ont été recueillis, sauf si vous y consentez ou si les lois applicables le permettent ou l’exigent.",
 	"consentTitle": "Consentement",
-	"consentText": "Dans la mesure du possible, nous obtiendrons le consentement à la collecte, à l’utilisation et à la divulgation des renseignements personnels concernant un individu directement auprès de cet individu. Si vous fournissez à la Société des renseignements personnels concernant Higglebottom autre individu, vous déclarez qu’avant de soumettre ces renseignements, vous avez obtenu le consentement ou l’autorisation nécessaire pour nous permettre de recueillir, d’utiliser et de divulguer ces renseignements personnels aux fins énoncées dans la présente Politique, ou la collecte, l’utilisation et la divulgation autorisées par les lois applicables.",
+	"consentText": "Dans la mesure du possible, nous obtiendrons le consentement à la collecte, à l’utilisation et à la divulgation des renseignements personnels concernant un individu directement auprès de cet individu. Si vous fournissez à la Société des renseignements personnels concernant un autre individu, vous déclarez qu’avant de soumettre ces renseignements, vous avez obtenu le consentement ou l’autorisation nécessaire pour nous permettre de recueillir, d’utiliser et de divulguer ces renseignements personnels aux fins énoncées dans la présente Politique, ou la collecte, l’utilisation et la divulgation autorisées par les lois applicables.",
 	"withdrawalConsentTitle": "Retrait du consentement",
-	"withdrawalConsentText": "Vous pouvez modifier ou retirer votre consentement à l’utilisation et à la divulgation de vos renseignements personnels, ou refuser certaines utilisations et divulgations, sous réserve des restrictions légales et contractuelles. Pour modifier ou retirer votre consentement, veuillez contacter notre responsable de la protection des renseignements personnels, Antony Kerr-Aspirot, au moyen du courriel ci-dessous :",
+	"withdrawalConsentText": "Vous pouvez modifier ou retirer votre consentement à l’utilisation et à la divulgation de vos renseignements personnels, ou refuser certaines utilisations et divulgations, sous réserve des restrictions légales et contractuelles. Pour modifier ou retirer votre consentement, veuillez contacter notre responsable de la protection des renseignements personnels, Antony K. Aspirot, au moyen du courriel ci-dessous :",
 	"contactEmail": "info@aspavocats.ca",
 	"collectedInformationTitle": "Les informations que nous recueillons à votre sujet",
 	"collectedInformationText": "Nous collectons et utilisons plusieurs types de renseignements vous concernant, notamment :",
@@ -154,9 +155,9 @@
 	"retentionTitle": "Conservation des renseignements",
 	"retentionText": "Nous ne conserverons vos renseignements personnels que le temps nécessaire pour atteindre les objectifs pour lesquels nous les avons collectés, sauf autorisation ou exigence contraire de la loi ou de la réglementation applicable.",
 	"accessCorrectionTitle": "Accès et correction de vos renseignements personnels",
-	"accessCorrectionText": "Vous avez le droit de demander l’accès aux renseignements personnels que nous détenons à votre sujet et le droit de corriger ces renseignements. Pour exercer ces droits ou pour toute autre question concernant vos renseignements personnels, veuillez contacter notre responsable de la protection des renseignements personnels, Antony Kerr-Aspirot, aux coordonnées fournies ci-dessus.",
+	"accessCorrectionText": "Vous avez le droit de demander l’accès aux renseignements personnels que nous détenons à votre sujet et le droit de corriger ces renseignements. Pour exercer ces droits ou pour toute autre question concernant vos renseignements personnels, veuillez contacter notre responsable de la protection des renseignements personnels, Antony K. Aspirot, aux coordonnées fournies ci-dessus.",
 	"policyModificationTitle": "Modification de notre politique de confidentialité",
 	"policyModificationText": "Cette politique de confidentialité peut être modifiée par la Société de temps à autre, sans préavis. La version la plus récente de la politique de confidentialité sera toujours disponible sur notre site web.",
 	"complianceComplaintTitle": "Plainte concernant la conformité à la présente politique",
-	"complianceComplaintText": "Pour toute plainte ou question concernant notre conformité à cette politique de confidentialité, veuillez contacter notre responsable de la protection des renseignements personnels, Antony Kerr-Aspirot, aux coordonnées fournies ci-dessus."
+	"complianceComplaintText": "Pour toute plainte ou question concernant notre conformité à cette politique de confidentialité, veuillez contacter notre responsable de la protection des renseignements personnels, Antony K. Aspirot, aux coordonnées fournies ci-dessus."
 }
