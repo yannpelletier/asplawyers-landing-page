@@ -45,10 +45,6 @@
 		{
 			label: m.footerPrivacyPolicy(),
 			path: localizeHref('/privacy-policy')
-		},
-		{
-			label: m.footerLegalNotices(),
-			path: '/'
 		}
 	];
 </script>
