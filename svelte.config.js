@@ -7,7 +7,6 @@ const config = {
 	kit: {
     prerender: {
       crawl: true,
-      entries: ["/", "/en"]
     },
 		adapter: adapter({
 			pages: 'build',
