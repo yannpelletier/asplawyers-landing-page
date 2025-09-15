@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
-	import { i18n } from '$lib/i18n';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import { cn } from '$lib/utils';
 
 	let {
@@ -11,7 +11,7 @@
 </script>
 
 <a
-	href={i18n.resolveRoute('/')}
+	href={localizeHref('/')}
 	class={cn(
 		'border-l-4 border-primary py-1 pl-2 font-leyendo font-bold tracking-widest text-secondary',
 		className

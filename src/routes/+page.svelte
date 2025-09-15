@@ -8,7 +8,7 @@
 	import BuildingIcon from '@lucide/svelte/icons/building';
 	import WalletIcon from '@lucide/svelte/icons/wallet';
 	import * as m from '$lib/paraglide/messages';
-	import { i18n } from '$lib/i18n';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import HeroBackgroundImage1 from '$lib/assets/hero-background.jpg';
 	import HeroBackgroundImage2 from '$lib/assets/hero-background2.jpg';
 	import HeroBackgroundImage3 from '$lib/assets/hero-background3.jpg';
@@ -46,25 +46,25 @@
 			title: m.serviceIncorporationsAndTrusts(),
 			description: m.serviceAssetProtectionDescription(),
 			icon: BuildingIcon,
-			path: i18n.resolveRoute('/services#incorporations')
+			path: localizeHref('/services#incorporations')
 		},
 		{
 			title: m.serviceBusinessPurchaseSale(),
 			description: m.serviceBusinessPurchaseSaleDescription(),
 			icon: BriefcaseIcon,
-			path: i18n.resolveRoute('/services#purchase')
+			path: localizeHref('/services#purchase')
 		},
 		{
 			title: m.serviceFiscalReorganization(),
 			description: m.serviceFiscalOptimizationDescription(),
 			icon: FileTextIcon,
-			path: i18n.resolveRoute('/services#reorganization')
+			path: localizeHref('/services#reorganization')
 		},
 		{
 			title: m.serviceAnnualLegalUpdate(),
 			description: m.serviceAnnualLegalUpdateDescription(),
 			icon: WalletIcon,
-			path: i18n.resolveRoute('/services#update')
+			path: localizeHref('/services#update')
 		}
 	];
 
@@ -126,7 +126,7 @@
 				{m.heroFirmSpecialization()}
 			</p>
 			<Button
-				href={i18n.resolveRoute('/contact')}
+				href={localizeHref('/contact')}
 				variant="default"
 				size="lg"
 				class="btn-shine mt-6 w-full cursor-pointer p-6 text-base sm:text-lg md:text-xl"
@@ -256,7 +256,7 @@
 			{m.ctaContactUs()}
 		</h2>
 		<Button
-			href={i18n.resolveRoute('/contact')}
+			href={localizeHref('/contact')}
 			variant="default"
 			size="lg"
 			class="btn-shine m-6 w-76 cursor-pointer p-6 text-base sm:text-lg md:text-xl"

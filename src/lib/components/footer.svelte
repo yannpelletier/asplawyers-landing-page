@@ -1,50 +1,50 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import Logo from '$lib/components/logo.svelte';
-	import { i18n } from '$lib/i18n';
 
 	const generalLinks = [
 		{
 			label: m.navHome(),
-			path: i18n.resolveRoute('/')
+			path: localizeHref('/')
 		},
 		{
 			label: m.navCareers(),
-			path: i18n.resolveRoute('/careers')
+			path: localizeHref('/careers')
 		},
 		{
 			label: m.navAbout(),
-			path: i18n.resolveRoute('/about')
+			path: localizeHref('/about')
 		},
 		{
 			label: m.navContact(),
-			path: i18n.resolveRoute('/contact')
+			path: localizeHref('/contact')
 		}
 	];
 
 	const serviceLinks = [
 		{
 			label: m.serviceIncorporationsAndTrusts(),
-			path: i18n.resolveRoute(`/services#${m.serviceIncorporationsAndTrustsId()}`)
+			path: localizeHref(`/services#${m.serviceIncorporationsAndTrustsId()}`)
 		},
 		{
 			label: m.serviceBusinessPurchaseSale(),
-			path: i18n.resolveRoute(`/services#${m.serviceBusinessPurchaseSaleId()}`)
+			path: localizeHref(`/services#${m.serviceBusinessPurchaseSaleId()}`)
 		},
 		{
 			label: m.serviceFiscalReorganization(),
-			path: i18n.resolveRoute(`/services#${m.serviceFiscalReorganizationId()}`)
+			path: localizeHref(`/services#${m.serviceFiscalReorganizationId()}`)
 		},
 		{
 			label: m.serviceAnnualLegalUpdate(),
-			path: i18n.resolveRoute(`/services#${m.serviceAnnualLegalUpdateId()}`)
+			path: localizeHref(`/services#${m.serviceAnnualLegalUpdateId()}`)
 		}
 	];
 
 	const judiciaryLinks = [
 		{
 			label: m.footerPrivacyPolicy(),
-			path: i18n.resolveRoute('/privacy-policy')
+			path: localizeHref('/privacy-policy')
 		},
 		{
 			label: m.footerLegalNotices(),

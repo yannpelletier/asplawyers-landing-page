@@ -5,7 +5,7 @@
 	import XIcon from '@lucide/svelte/icons/x';
 	import ChevronDown from '@lucide/svelte/icons/chevron-down';
 	import * as m from '$lib/paraglide/messages';
-	import { i18n } from '$lib/i18n';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import {
 		Collapsible,
@@ -29,29 +29,29 @@
 
 	const navItems: Array<NavItem> = [
 		{
-			path: i18n.resolveRoute('/services'),
+			path: localizeHref('/services'),
 			label: m.footerServices(),
 			subItems: [
 				{
 					label: m.serviceIncorporationsAndTrusts(),
-					path: i18n.resolveRoute(`/services#${m.serviceIncorporationsAndTrustsId()}`)
+					path: localizeHref(`/services#${m.serviceIncorporationsAndTrustsId()}`)
 				},
 				{
 					label: m.serviceBusinessPurchaseSale(),
-					path: i18n.resolveRoute(`/services#${m.serviceBusinessPurchaseSaleId()}`)
+					path: localizeHref(`/services#${m.serviceBusinessPurchaseSaleId()}`)
 				},
 				{
 					label: m.serviceFiscalReorganization(),
-					path: i18n.resolveRoute(`/services#${m.serviceFiscalReorganizationId()}`)
+					path: localizeHref(`/services#${m.serviceFiscalReorganizationId()}`)
 				},
 				{
 					label: m.serviceAnnualLegalUpdate(),
-					path: i18n.resolveRoute(`/services#${m.serviceAnnualLegalUpdateId()}`)
+					path: localizeHref(`/services#${m.serviceAnnualLegalUpdateId()}`)
 				}
 			]
 		},
-		{ path: i18n.resolveRoute('/careers'), label: m.footerCareers() },
-		{ path: i18n.resolveRoute('/about'), label: m.navAbout() }
+		{ path: localizeHref('/careers'), label: m.footerCareers() },
+		{ path: localizeHref('/about'), label: m.navAbout() }
 	];
 
 	const handleScroll = () => {
@@ -77,7 +77,7 @@
 
 {#snippet contactButton()}
 	<Button
-		href={i18n.resolveRoute('/contact')}
+		href={localizeHref('/contact')}
 		variant="default"
 		size="default"
 		class="btn-shine cursor-pointer p-6 text-lg"

@@ -7,7 +7,7 @@
 	import WalletIcon from '@lucide/svelte/icons/wallet';
 	import { Button } from '$lib/components/ui/button';
 	import { Card, CardTitle, CardHeader, CardContent, CardFooter } from '$lib/components/ui/card';
-	import { i18n } from '$lib/i18n';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
 	const services = [
 		{
@@ -145,7 +145,7 @@
 				</CardContent>
 				<CardFooter class="pt-4">
 					<Button
-						href={i18n.resolveRoute('/contact')}
+						href={localizeHref('/contact')}
 						variant="outline"
 						size="lg"
 						class="group/button relative w-full overflow-hidden border-primary/50 bg-transparent px-6 py-2 text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
