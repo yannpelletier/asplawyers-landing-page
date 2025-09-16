@@ -13,43 +13,43 @@ export default defineConfig({
 				{
 					pattern: '/',
 					localized: [
-						['en', '/en'],
+						['en', '/en/'],
 						['fr', '/']
 					]
 				},
 				{
-					pattern: '/contact',
+					pattern: '/contact/',
 					localized: [
-						['en', '/en/contact'],
-						['fr', '/contact']
+						['en', '/en/contact/'],
+						['fr', '/contact/']
 					]
 				},
 				{
-					pattern: '/about',
+					pattern: '/about/',
 					localized: [
-						['en', '/en/about'],
-						['fr', '/a-propos']
+						['en', '/en/about/'],
+						['fr', '/a-propos/']
 					]
 				},
 				{
-					pattern: '/services',
+					pattern: '/services/',
 					localized: [
-						['en', '/en/services'],
-						['fr', '/services']
+						['en', '/en/services/'],
+						['fr', '/services/']
 					]
 				},
 				{
-					pattern: '/privacy-policy',
+					pattern: '/privacy-policy/',
 					localized: [
-						['en', '/en/privacy-policy'],
-						['fr', '/politique-de-confidentialite']
+						['en', '/en/privacy-policy/'],
+						['fr', '/politique-de-confidentialite/']
 					]
 				},
 				{
-					pattern: '/careers',
+					pattern: '/careers/',
 					localized: [
-						['en', '/en/careers'],
-						['fr', '/carrieres']
+						['en', '/en/careers/'],
+						['fr', '/carrieres/']
 					]
 				}
 			]

@@ -15,17 +15,17 @@ const config = {
     prerender: {
       entries: [
         '/',
-        '/a-propos',
-        '/carrieres',
-        '/contact',
-        '/services',
-        '/politique-de-confidentialite',
-        '/en',
-        '/en/contact',
-        '/en/about',
-        '/en/services',
-        '/en/privacy-policy',
-        '/en/careers',
+        '/a-propos/',
+        '/carrieres/',
+        '/contact/',
+        '/services/',
+        '/politique-de-confidentialite/',
+        '/en/',
+        '/en/contact/',
+        '/en/about/',
+        '/en/services/',
+        '/en/privacy-policy/',
+        '/en/careers/',
       ]
     }
   }
