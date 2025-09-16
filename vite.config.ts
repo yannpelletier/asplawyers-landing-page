@@ -18,35 +18,35 @@ export default defineConfig({
 					]
 				},
 				{
-					pattern: '/contact/',
+					pattern: '/contact',
 					localized: [
 						['en', '/en/contact/'],
 						['fr', '/contact/']
 					]
 				},
 				{
-					pattern: '/about/',
+					pattern: '/about',
 					localized: [
 						['en', '/en/about/'],
 						['fr', '/a-propos/']
 					]
 				},
 				{
-					pattern: '/services/',
+					pattern: '/services',
 					localized: [
 						['en', '/en/services/'],
 						['fr', '/services/']
 					]
 				},
 				{
-					pattern: '/privacy-policy/',
+					pattern: '/privacy-policy',
 					localized: [
 						['en', '/en/privacy-policy/'],
 						['fr', '/politique-de-confidentialite/']
 					]
 				},
 				{
-					pattern: '/careers/',
+					pattern: '/careers',
 					localized: [
 						['en', '/en/careers/'],
 						['fr', '/carrieres/']
