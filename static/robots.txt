@@ -1,3 +1,43 @@
-# allow crawling everything by default
+User-agent: anthropic
+Disallow: /
+
+User-agent: claude
+Disallow: /
+
+User-agent: xAI
+Disallow: /
+
+User-agent: Grok
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yahoo! Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Disallow AI crawlers commonly used for scraping training data
+User-agent: *Bot
+Disallow: /
+
+User-agent: *bot
+Disallow: /
+
+# Allow all other legitimate search engine crawlers
 User-agent: *
-Disallow:
+Allow: /

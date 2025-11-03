@@ -21,6 +21,7 @@
         };
       in {
         devShells.default = pkgs.mkShell {
+          name = "bun";
           buildInputs = with pkgs; [
             bun
             nodejs

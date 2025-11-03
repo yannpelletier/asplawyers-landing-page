@@ -51,6 +51,13 @@ export default defineConfig({
 						['en', '/en/careers/'],
 						['fr', '/carrieres/']
 					]
+				},
+				{
+					pattern: '/blog',
+					localized: [
+						['en', '/blog/'],
+						['fr', '/blog/']
+					]
 				}
 			]
 		}),

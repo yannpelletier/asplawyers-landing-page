@@ -2,6 +2,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import AboutBackgroundImage from '$lib/assets/about-background.jpg';
 	import AntonyPFPImage from '$lib/assets/antony-pfp.jpg';
+	import JadriquePFPImage from '$lib/assets/jadrique-pfp.jpg';
 	import { Button } from '$lib/components/ui/button';
 </script>
 
@@ -50,6 +51,22 @@
 			<div class="order-1 lg:order-2">
 				<img
 					src={AntonyPFPImage}
+					class="w-128 rounded-full border-6 border-primary drop-shadow-xl drop-shadow-primary"
+					alt="founder"
+				/>
+			</div>
+		</div>
+
+		<div class="flex flex-col items-center gap-16 py-12 lg:flex-row">
+			<div class="flex max-w-2xl flex-col space-y-4 lg:order-1">
+				<div class="text-2xl lg:text-5xl">{m.aboutJadriqueTitle()}</div>
+				<div class="text-justify text-xl font-light">
+					{m.aboutJadriqueDescription()}
+				</div>
+			</div>
+			<div>
+				<img
+					src={JadriquePFPImage}
 					class="w-128 rounded-full border-6 border-primary drop-shadow-xl drop-shadow-primary"
 					alt="founder"
 				/>
